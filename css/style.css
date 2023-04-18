@@ -18,7 +18,7 @@ ul {
 }
 
 body {
-    min-width: 500px;
+    min-width: 50px;
     max-width: 1400px;
     overflow-x: hidden;
 }
@@ -78,7 +78,7 @@ body {
     background-image: url("../images/inicio.png");
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: top center;
+    background-position: center;
     background-attachment: fixed;
     height: 100%;
     width: 100%;
