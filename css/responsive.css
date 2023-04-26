@@ -181,8 +181,6 @@
 }
 
 
-
-
 @media (min-width: 494px) and (max-width: 576px) {
 
     /*HEADER*/
@@ -345,21 +343,570 @@
 
 }
 
-@media (max-width: 768px) {
+@media (min-width: 576px) and (max-width: 703px) {
+
+    .header {
+        padding: 0.8em 5em;
+    }
+
+    #nav-bar {
+        display: none;
+    }
+    
+    .nav-bar {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        position: absolute;
+        font-size: 0.7em;
+        gap: 2em;
+        background-color: rgba(240, 240, 240, 0.4);
+        padding: 2em 3em;
+        top: 9%;
+        right: 0%;
+        z-index: 2;
+    }
+
+
+    .button-mark {
+        display: none;
+    }
+
+    .box-toggle {
+        display: block;
+        z-index: 2;
+    }
+
+    .toggle {
+        font-size: 1.2em;
+    }
+
+    /*INICIO*/
+
+    .text {
+        font-size: 2em;
+        z-index: 0;
+    }
+
+    .inicio {
+        background-position: center;
+    }
+
+    .inicio-area {
+        top: 50%;
+        left: 9%;
+    }
+
+    .inicio-button {
+        background-color: #fff;
+        color: #000;
+        padding: 10px 20px;
+        font-size: 0.8em;
+        border-radius: 5px;
+    }
+
+    /*SOBRE*/
+
+    .title-sobre {
+        font-size: 1.4em;
+    }
+
+    .img-area {
+        display: none;
+    }
+
+    .text-sobre {
+        font-size: 1em;
+    }
+
+    .conteudo-sobre {
+        display: grid;
+        grid-template-columns: 100%;
+        gap: 50px;
+        background-color: rgba(6, 6, 6, 0.9);
+        padding: 30px 60px;
+    }
+
+    /*GALERIA*/ 
+
+    .title-galeria {
+        font-size: 1em;
+        
+    }
+
+    .galeria-area {
+        display: grid;
+        grid-template-columns: 50% 50%;
+        gap: 30px;
+        justify-content: center;
+    }
+
+    .item-9 {
+        display: none;
+    }
+
+    /*TESTEMUNHOS*/
+
+    .testemunho-3 {
+        display: block;
+    }
+
+    .title-testemunhos {
+        font-size: 1.2em;
+    }
+
+    .testemunho .title {
+        font-size: 0.9em;
+    }
+
+    .testemunho .comentario {
+        font-size: 0.8em;
+    }
+
+    .testemunho .avaliação {
+        font-size: 0.5em;
+    }
+
+    .testemunhos-area {
+        gap: 20px;
+        height: 20%;
+        }
+
+    .testemunhos-button {
+        padding: 8px 15px;
+        font-size: 0.8em;
+    }
+
+    /*CONTACTAR-NOS*/
+
+    .title-contato {
+        font-size: 1.2em;
+    }
+
+    .conteudo {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        gap: 0.9em;
+    }
+
+
+    .box-localização {
+        display: block;
+        width: 40%;
+    }
+
+    .localização {
+        height: 10%;
+    }
+
+    .button {
+        padding: 10px 20px;
+        font-size: 0.7em;
+
+    }
+
+    .funcionamento-box {
+        font-size: 0.7em;
+    }
+
+    .social-media {
+        font-size: 0.8em;
+    }
+
+    /*RODAPÉ*/
+
+    .rodapé {
+        font-size: 0.68em;
+        padding: 10px 50px;
+    }
+    
 
 }
 
-@media (max-width: 992px) {
+
+@media (min-width: 703px) and (max-width: 991px) {
+
+    .header {
+        padding: 10px 60px;
+    }
+
+    #nav-bar {
+        display: flex;
+    }
+    
+    .nav-bar {
+        display: flex;
+        gap: 30px;
+        font-size: 0.7em;
+    }
+
+
+    .button-mark {
+        display: block;
+        font-size: 0.7em;
+        padding: 5px;
+    }
+
+    .box-toggle {
+        display: none;
+        z-index: 2;
+    }
+
+    .toggle {
+        font-size: 1.2em;
+    }
+
+    /*INICIO*/
+
+    .text {
+        font-size: 2em;
+        z-index: 0;
+    }
+
+    .inicio {
+        background-position: center;
+    }
+
+    .inicio-area {
+        top: 50%;
+        left: 9%;
+    }
+
+    .inicio-button {
+        background-color: #fff;
+        color: #000;
+        padding: 10px 20px;
+        font-size: 1em;
+        border-radius: 5px;
+    }
+
+    /*SOBRE*/
+
+    .title-sobre {
+        font-size: 1.4em;
+    }
+
+    .img-area {
+        display: none;
+    }
+
+    .text-sobre {
+        font-size: 1em;
+    }
+
+    .conteudo-sobre {
+        display: grid;
+        grid-template-columns: 100%;
+        gap: 50px;
+        background-color: rgba(6, 6, 6, 0.9);
+        padding: 30px 60px;
+    }
+
+    /*GALERIA*/ 
+
+    .title-galeria {
+        font-size: 1em;
+        
+    }
+
+    .galeria-area {
+        display: grid;
+        grid-template-columns: 25% 25% 25%;
+        gap: 30px;
+        justify-content: center;
+    }
+
+    .item-9 {
+        display: block;
+    }
+
+    /*TESTEMUNHOS*/
+
+    .testemunho-3 {
+        display: block;
+    }
+
+    .title-testemunhos {
+        font-size: 1.5em;
+    }
+
+    .testemunho .title {
+        font-size: 1em;
+    }
+
+    .testemunho .comentario {
+        font-size: 1em;
+    }
+
+    .testemunho .avaliação {
+        font-size: 0.7em;
+    }
+
+    .testemunhos-area {
+        gap: 20px;
+        height: 20%;
+        }
+
+    .testemunhos-button {
+        padding: 10px 20px;
+        font-size: 0.9em;
+    }
+
+    /*CONTACTAR-NOS*/
+
+    .title-contato {
+        font-size: 1.5em;
+    }
+
+    .conteudo {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        gap: 0.9em;
+    }
+
+
+    .box-localização {
+        display: block;
+        width: 30%;
+    }
+
+    .localização {
+        height: 10%;
+    }
+
+    .button {
+        padding: 5px;
+        font-size: 0.8em;
+
+    }
+
+    .funcionamento-box {
+        font-size: 0.8em;
+    }
+
+    .social-media {
+        font-size: 0.8em;
+    }
+
+    /*RODAPÉ*/
+
+    .rodapé {
+        font-size: 0.68em;
+        padding: 10px 50px;
+    }
+
 
 }
 
-@media (max-width: 1200px) {
+@media (min-width: 800px) and (max-width: 991px) {
+
+    .header {
+        padding: 10px 60px;
+    }
+
+    #nav-bar {
+        display: flex;
+    }
+    
+    .nav-bar {
+        display: flex;
+        gap: 35px;
+        font-size: 0.8em;
+    }
+
+
+    .button-mark {
+        display: block;
+        font-size: 0.7em;
+        padding: 5px;
+    }
+
+    .box-toggle {
+        display: none;
+        z-index: 2;
+    }
+
+    .toggle {
+        font-size: 1.2em;
+    }
 
 }
 
-@media (max-width: 1400px) {
+
+@media (min-width: 991px) and (max-width: 1000px) {
+
+    .header {
+        padding: 0.8em 5em;
+    }
+
+    #nav-bar {
+        display: flex;
+    }
+    
+    .nav-bar {
+        display: flex;
+        gap: 40px;
+        font-size: 0.9em;
+    }
+
+
+    .button-mark {
+        display: block;
+    }
+
+    .box-toggle {
+        display: none;
+        z-index: 2;
+    }
+
+    .toggle {
+        font-size: 1.2em;
+    }
+
+    /*INICIO*/
+
+    .text {
+        font-size: 2.5em;
+        z-index: 0;
+    }
+
+    .inicio {
+        background-position: center;
+    }
+
+    .inicio-area {
+        top: 50%;
+        left: 9%;
+    }
+
+    .inicio-button {
+        background-color: #fff;
+        color: #000;
+        padding: 20px 30px;
+        font-size: 1em;
+        border-radius: 5px;
+    }
+
+    /*SOBRE*/
+
+    .title-sobre {
+        font-size: 2em;
+    }
+
+    .img-area {
+        display: none;
+    }
+
+    .text-sobre {
+        font-size: 1em;
+    }
+
+    .conteudo-sobre {
+        display: grid;
+        grid-template-columns: 100%;
+        gap: 50px;
+        background-color: rgba(6, 6, 6, 0.9);
+        padding: 30px 60px;
+    }
+
+    /*GALERIA*/ 
+
+    .title-galeria {
+        font-size: 1.2em;
+        
+    }
+
+    .galeria-area {
+        display: grid;
+        grid-template-columns: 25% 25% 25%;
+        gap: 30px;
+        justify-content: center;
+    }
+
+    .item-9 {
+        display: block;
+    }
+
+    /*TESTEMUNHOS*/
+
+    .testemunho-3 {
+        display: block;
+    }
+
+    .title-testemunhos {
+        font-size: 1.8em;
+    }
+
+    .testemunho .title {
+        font-size: 1em;
+    }
+
+    .testemunho .comentario {
+        font-size: 1em;
+    }
+
+    .testemunho .avaliação {
+        font-size: 0.7em;
+    }
+
+    .testemunhos-area {
+        gap: 40px;
+        height: 20%;
+        }
+
+    .testemunhos-button {
+        padding: 10px 20px;
+        font-size: 0.9em;
+    }
+
+    /*CONTACTAR-NOS*/
+
+    .title-contato {
+        font-size: 1.8em;
+    }
+
+    .conteudo {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        gap: 0.9em;
+    }
+
+
+    .box-localização {
+        display: block;
+        width: 40%;
+    }
+
+
+    .button {
+        padding: 8px 15px;
+        font-size: 0.9em;
+
+    }
+
+    .funcionamento-box {
+        font-size: 0.9em;
+    }
+
+    .social-media {
+        font-size: 1em;
+    }
+
+    /*RODAPÉ*/
+
+    .rodapé {
+        font-size: 0.9em;
+        padding: 10px 50px;
+    }
 
 }
+
 
 /*ABRIR E FECHAR*/
 
