@@ -1,11 +1,3 @@
-@media only screen and (max-width: 768px) {
-    .inicio {
-      background-size: cover;
-    }
-  }
-
-
-
 
 @media (min-width: 200px) and (max-width: 495px) {
 
@@ -228,7 +220,7 @@
     /*INICIO*/
 
     .text {
-        font-size: 2em;
+        font-size: 1.5em;
     }
 
     .inicio-area {
