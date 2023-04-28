@@ -1,3 +1,10 @@
+@media only screen and (max-width: 768px) {
+    .inicio {
+      background-size: 100% auto;
+    }
+  }
+
+
 
 
 @media (min-width: 200px) and (max-width: 495px) {
@@ -45,10 +52,6 @@
         font-size: 1.2em;
         z-index: 0;
     }
-
-    .inicio {
-        background-size: 100% auto;
-      }
 
 
     .inicio-area {
@@ -228,10 +231,6 @@
         font-size: 2em;
     }
 
-    .inicio {
-        background-size: 100% auto;
-      }
-
     .inicio-area {
         top: 50%;
         left: 9%;
@@ -387,10 +386,6 @@
     .text {
         font-size: 2em;
         z-index: 0;
-    }
-
-    .inicio {
-        background-size: 100% auto;
     }
 
     .inicio-area {
