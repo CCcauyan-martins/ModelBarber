@@ -40,7 +40,7 @@
                     
     
                         <div class="button-mark">
-                            <a href="https://www.bemarca.pt/plataforma3/#/online/web/antonielibarbeariaepub" class="button-menu">Fazer Marcação</a>
+                            <a onclick="gtag_report_conversion()" href="https://www.bemarca.pt/plataforma3/#/online/web/antonielibarbeariaepub" class="button-menu">Fazer Marcação</a>
                         </div>
  
 
@@ -65,7 +65,7 @@
                     </div>
                     
                     <div class="button-area">
-                        <a class="inicio-button" href="https://www.bemarca.pt/plataforma3/#/online/web/antonielibarbeariaepub">Faça sua marcação aqui: </a>
+                        <a onclick="gtag_report_conversion()" class="inicio-button" href="https://www.bemarca.pt/plataforma3/#/online/web/antonielibarbeariaepub">Faça sua marcação aqui: </a>
                     </div>
 
                 </div>
@@ -229,5 +229,24 @@
         </main>
         
         <script src="js/script.js"></script>
+
+        <!-- Event snippet for Marcou um horário conversion page
+        In your html page, add the snippet and call gtag_report_conversion when someone clicks on the chosen link or button. -->
+        <script>
+            function gtag_report_conversion(url) {
+            var callback = function () {
+                if (typeof(url) != 'undefined') {
+                window.location = url;
+                }
+            };
+            gtag('event', 'conversion', {
+                'send_to': 'AW-11167289600/J6BNCLz0zJwYEICi_cwp',
+                'event_callback': callback
+            });
+            return false;
+            }
+            </script>
+    
+
     </body>
 </html>
