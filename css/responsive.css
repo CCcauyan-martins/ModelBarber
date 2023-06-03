@@ -893,6 +893,16 @@
 
 }
 
+@media (min-width: 1399px) {
+
+    
+ 
+    .text-sobre {
+        font-size: 1.6em;
+    }
+    
+}
+
 
 /*ABRIR E FECHAR*/
 
